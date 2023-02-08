@@ -1,0 +1,79 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family:century gothic;
+}
+
+header{
+  background-image: url(../background.webp);
+  height: 100vh;
+  background-size: cover;
+  background-position: center; /*to get full image*/
+}
+ul{
+  list-style-type: none; /*for removing dots*/
+  float: right;
+}
+ul li{
+  display:inline-block  /* for horizontal home contact etc*/
+}
+ul li a{
+  text-decoration :none; /*for removing underlines*/
+  color :white;
+  padding :5px,20px;
+  border:1px solid white;
+  transition:0.5s;
+}
+ul li a:hover{
+  backgroung-color:white;
+  color:black;
+}
+ul li.active a{
+  background-color: white;
+  color:black;
+}
+.logo img{
+  float :left;
+  width: 150px;
+  height:auto
+}
+.main{
+  max-width: 1200px;
+  margin:auto;
+}
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+}
+.title h1{
+  color:white;
+  font-size:70px;
+}
+.button{
+  position:absolute;
+  top:70%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+.btn{
+  border:1px solid white;
+  padding:10px 30px;
+  color:#fff;
+  text-decoration: none;
+}
+.btn:hover{
+  background-color:#fff;
+  color:black;
+}
+
+
+
+
+
+
+
+
+
